@@ -9,6 +9,26 @@
   <img src="https://img.shields.io/badge/License-MIT-9A69DA" alt="MIT License">
 </p>
 
+## 功能一览
+
+### 一键还原纯文本
+
+点击菜单或使用快捷键，去掉刚复制内容里的字体、颜色和多余样式。
+
+<p align="center"><img src="docs/feature-clean.png" alt="Plain Text Keeper 的清理剪贴板操作" width="900"></p>
+
+### 偏好设置随时可调
+
+快捷键和使用偏好集中管理，保持简单又不失灵活。
+
+<p align="center"><img src="docs/feature-settings.png" alt="Plain Text Keeper 的设置入口" width="900"></p>
+
+### 登录后自动就绪
+
+可选择开机启动，让纯文本快捷键无需额外准备。
+
+<p align="center"><img src="docs/feature-login.png" alt="Plain Text Keeper 的开机启动选项" width="900"></p>
+
 ## 为什么好用
 
 - 默认按下 `Control + Option + Command + V` 清除当前剪贴板格式。
