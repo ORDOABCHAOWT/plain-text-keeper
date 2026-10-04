@@ -86,7 +86,8 @@ cat > "$APP_BUNDLE/Contents/PkgInfo" <<PKG
 APPL????
 PKG
 
-codesign --force --sign - "$APP_BUNDLE" >/dev/null
+# Sign with a fixed identity when CODESIGN_IDENTITY names one; ad hoc otherwise.
+codesign --force --sign "${CODESIGN_IDENTITY:--}" "$APP_BUNDLE" >/dev/null
 codesign --verify --deep --strict "$APP_BUNDLE"
 
 if [[ "${INSTALL_APP:-1}" == "1" ]]; then
